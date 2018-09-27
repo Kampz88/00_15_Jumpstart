@@ -1,0 +1,182 @@
+html{
+  font-size: 14px;
+}
+
+body{
+  font-family: "open sans", sans-serif;
+}
+
+.navbar .navbar-nav a{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .active a{
+  color: #399bd1;
+  background-color: inherit;
+}
+
+.navbar .navbar-nav .active a:hover{
+  color: darkslateblue;
+  background-color: inherit;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.jumbotron{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 11.85rem 0;
+  height: 44rem;
+  text-align: center;
+}
+
+.bike{background-image: url('../images/jumbotron-bike.jpg');}
+.beer{background-image: url('../images/jumbotron-beer.jpg');}
+.flowers{background-image: url('../images/jumbotron-flowers.jpg');}
+.duffel{background-image: url('../images/jumbotron-duffel.jpg');}
+
+.jumbotron h1{
+  font-family: monoton, monospace;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron p{
+  color: white;
+  max-width: 51.3rem;
+  padding-bottom: 2.85rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  margin: auto;
+  text-shadow: -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 1px 1px 0 #000;
+}
+
+.button a,
+.help a{
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  width: 11.4rem;
+  background-color: #399bd1;
+  border: 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: all, 0.5s;
+}
+
+.button a:hover,
+.help a:hover{
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.button a:active,
+.help a:active{
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+.featured{
+  position: relative;
+  top: -8rem;
+}
+
+h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 1.3rem;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.blue{
+  color: #399bd1;
+}
+
+.featured .list ul li{
+  color: rg ba(0, 0, 0, 0.7);
+  line-height: 1.4rem;
+}
+
+.image-container{
+  max-height: 20rem;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image-container:hover img{
+  transform: scale(1.3);
+}
+
+img{
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: all, 0.5s;
+  cursor: pointer;
+}
+
+img:hover{
+  opacity: 1;
+  transform: ;
+}
+
+.projects .pj{
+  margin-bottom: -3.85rem;
+}
+
+.help{
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.help strong{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.help p{
+  max-width: 42rem;
+}
+
+@media only screen and (max-width: 1199px){
+
+  .projects .pj{
+    margin-bottom: 2.85rem;
+  }
+
+  .jumbotron{
+    height: 50rem;
+  }
+
+  .jumbotron h1{
+    font-size: 5rem;
+  }
+
+}
